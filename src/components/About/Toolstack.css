@@ -1,0 +1,48 @@
+.icon {
+    position: relative; /* Needed for absolute positioning of animated child */
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.5s ease; /* Smooth appearance */
+  }
+  
+  .icon.animate {
+    animation: escape 10s infinite; /* Continuous animation */
+    opacity: 1; /* Make visible */
+  }
+  
+  @keyframes escape {
+    0% {
+      transform: translateY(0) scale(1); /* Start at original position */
+    }
+    25% {
+      transform: translateY(-20px) scale(1.1); /* Move up slightly and grow */
+    }
+    50% {
+      transform: translateY(-40px) scale(0.9); /* Move further up and shrink */
+    }
+    75% {
+      transform: translateY(-20px) scale(1.1); /* Return to slight bounce */
+    }
+    100% {
+      transform: translateY(0) scale(1); /* End at original position */
+    }
+  }
+  
+  .tool-stack-title {
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Spacing below the title */
+    transition: transform 0.5s ease; /* Smooth zoom effect */
+  }
+  
+  .tool-stack-title.zoom {
+    animation: zoom 2s infinite alternate; /* Continuous zoom animation */
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1); /* Original size */
+    }
+    100% {
+      transform: scale(1.05); /* Slightly larger */
+    }
+  }
+  

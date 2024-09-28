@@ -1,0 +1,28 @@
+.miscellaneous-card {
+  margin-bottom: 20px; /* Add space below each card */
+  padding: 10px; /* Slight padding inside each column */
+  background-color: #000000; /* Set background color same as project cards */
+}
+
+.miscellaneous-card > .card {
+  width: 90%; /* Reduce the overall width of the card */
+  height: auto; /* Let height adjust automatically based on content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for visual effect */
+  transition: transform 0.2s ease-in-out;
+  margin: 0 auto; /* Center the card within the column */
+}
+
+.miscellaneous-card > .card:hover {
+  transform: translateY(-5px); /* Slight movement on hover */
+}
+
+.card-title {
+  font-weight: bold;
+  text-align: center; /* Center the title of each card */
+}
+
+.view-button {
+  margin-top: 10px;
+  width: 100%; /* Full-width button */
+}

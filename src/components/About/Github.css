@@ -1,0 +1,22 @@
+.project-heading {
+    font-size: 2rem; /* Adjust font size as needed */
+    transition: transform 0.5s ease; /* Smooth transition */
+    transform: scale(1); /* Initial scale */
+  }
+  
+  .project-heading.zoom {
+    animation: zoomInfinite 10s infinite ease-in-out; /* Infinite zoom animation */
+  }
+  
+  @keyframes zoomInfinite {
+    0% {
+      transform: scale(1); /* Original size */
+    }
+    50% {
+      transform: scale(0.95); /* Slightly smaller */
+    }
+    100% {
+      transform: scale(1); /* Return to original size */
+    }
+  }
+  

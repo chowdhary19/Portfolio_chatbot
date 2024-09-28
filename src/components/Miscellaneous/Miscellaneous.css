@@ -1,0 +1,18 @@
+.miscellaneous-section {
+    padding: 50px 0; /* Space around the entire section */
+  }
+  
+  .miscellaneous-heading {
+    text-align: center; /* Center the heading */
+    margin-bottom: 40px; /* Add spacing below heading */
+  }
+  
+  .research-publications-list {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+  }
+  
+  .research-publications-list li {
+    margin-bottom: 20px; /* Add space between publication entries */
+  }
+  
