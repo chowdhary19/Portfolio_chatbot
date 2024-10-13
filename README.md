@@ -5,10 +5,8 @@ This is the second version of my personal portfolio website, showcasing my GitHu
 ## Tech Stack
 
 - **React.js**: Frontend framework for building interactive UIs.
-- **Node.js**: Backend runtime environment for running server-side applications.
-- **Express.js**: Lightweight framework for backend routing and middleware management.
 - **CSS3**: For styling and layout, with a focus on responsiveness.
-- **React-Bootstrap**: Used for pre-built components and easy customization.
+- **Tailwind**: Used for pre-built components and easy customization.
 - **Vercel**: For seamless deployment and hosting of the project.
 
 ## Features
